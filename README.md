@@ -42,6 +42,7 @@ y1: Heating Load (prediction target)
 y2: Cooling Load (prediction target)
 
 The data comes from the open source machine learning repository: [https://archive.ics.uci.edu/ml/datasets/energy+efficiency](https://archive.ics.uci.edu/ml/datasets/energy+efficiency)
+
 An example of such values are:
 
 example= {'Relative_compactness': 0.9,
@@ -59,6 +60,9 @@ example= {'Relative_compactness': 0.9,
 
  You can try them using the trained model by filling the required inputs.
 
+Here are the snapshots of the home page and prediction page:
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Deployment:
 Docker is recommended to deploy the flask app (development environment). A dockerfile and docker-compose.yml has been provided. Simply, create a server and install docker. Then run the following where the docker-compose.yml file exists. 
