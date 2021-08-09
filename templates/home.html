@@ -1,0 +1,24 @@
+<h1>A machine learning model to predict the heating and cooling energy use of a building given its characteristics </h1>
+<h2>Please enter your flower measurements below:</h2>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    
+    {{ form.Relative_compactness.label }} {{form.Relative_compactness}}
+    <br>
+    {{ form.Surface_area.label}} {{form.Surface_area}}
+    <br>
+    {{form.Wall_area.label}}{{form.Wall_area}}
+    <br>
+    {{form.Roof_area.label}}{{form.Roof_area}}
+    <br>
+    {{form.Overall_height.label}}{{form.Overall_height}}
+    <br>
+    {{form.Orientation.label}}{{form.Orientation}}
+    <br>
+    {{form.Glazing_area.label}}{{form.Glazing_area}}
+    <br>
+    {{form.Glazing_area_distribution.label}}{{form.Glazing_area_distribution}}
+    <br>
+    {{ form.submit() }}
+</form>

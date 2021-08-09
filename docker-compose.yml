@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    command: python app.py
+    ports:
+      - "80:8080"   # outside world: inside docker
+    volumes:
+      - .:/python-flask
+    networks:
+    - webnet
+
+networks:
+  webnet:
+    driver: bridge
