@@ -55,7 +55,9 @@ example= {'Relative_compactness': 0.9,
  'Glazing_area_distribution': 3.0}
 
  with corresponding energy indices:
+ 
  Heating Load = {"Heating_Load": 32.68}
+ 
  Cooling Load= {"Cooling_Load": 32.83}
 
  You can try them using the trained model by filling the required inputs.
