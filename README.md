@@ -9,7 +9,7 @@ This project predicts the energy consumption a building would consume in terms o
 
 ```conda create -n residential-building-energy-labeling Python=3.9.6 ```
 
-The dependencies required to run the app are listed in the requirements.txt. simly run the following:
+The dependencies required to run the app are listed in the requirements.txt. simply run the following:
 
 ``` pip install -r requirements.txt ```
 
@@ -64,7 +64,9 @@ example= {'Relative_compactness': 0.9,
 
 Here are the snapshots of the home page and prediction page:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/miladashouri/residential-energy-prediction/blob/master/home_page.PNG "Logo Title Text 1")
+
+![alt text](https://github.com/miladashouri/residential-energy-prediction/blob/master/prediction_page.PNG "Logo Title Text 2")
 
 ## Deployment:
 Docker is recommended to deploy the flask app (development environment). A dockerfile and docker-compose.yml has been provided. Simply, create a server and install docker. Then run the following where the docker-compose.yml file exists. 
