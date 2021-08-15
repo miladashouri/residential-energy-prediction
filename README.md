@@ -2,7 +2,7 @@
 
 # Introduction:
 
-This project predicts the energy consumption a building would consume in terms of the given building characteristics, Specifically:
+This project predicts the energy consumption a building would consume in terms of the given building characteristics.
 
 ## Startup:
 **The best way to start the application is through creating a conda envireonment, for example:**
