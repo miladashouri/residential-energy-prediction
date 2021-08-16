@@ -5,7 +5,7 @@
 This project predicts the energy consumption a building would consume in terms of the given building characteristics.
 
 ## Startup:
-**The best way to start the application is through creating a conda envireonment, for example:**
+**The best way to start the application is through creating a conda envireonment, for example:** (This process has been tested on windows but should be similar in linux versions.)
 
 ```conda create -n residential-building-energy-labeling Python=3.9.6 ```
 
