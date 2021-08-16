@@ -77,6 +77,6 @@ The application is available on the server (port=80).
 
 ## Training:
 
-```python app.py```
+```python train.py```
 
 The train.py file fetches the data (from data folder) and runs machine learning models (curently random forest) and saves the data and parameters in pickle file and joblib format. The models are placed in the models directory.  
