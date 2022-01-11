@@ -17,6 +17,12 @@ After installing the required dependencies, run the application by:
 
 ```python app.py```
 
+You can alternatively dockerize the application. THe dockerfile and docker-compose files are given. Simply run:
+
+``` sudo docker-compose up ```
+
+
+
 
 ## Using the app:
 The fields needed to be filled are listed bellow.
